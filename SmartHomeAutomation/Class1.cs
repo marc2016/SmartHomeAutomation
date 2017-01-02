@@ -8,5 +8,6 @@ namespace SmartHomeAutomation
 {
     public class Class1
     {
+        public bool Test { get; set; }
     }
 }
