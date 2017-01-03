@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{E67AF4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.PiApp", "Server\Server.ShaApp\Server.PiApp.csproj", "{743F9D7F-F783-4082-9DCE-DFF70DEB8541}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Data", "Server\Server.Data\Server.Data.csproj", "{9FA2B078-0E45-4E64-BC59-044CCD607761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,22 @@ Global
 		{743F9D7F-F783-4082-9DCE-DFF70DEB8541}.Release|x86.ActiveCfg = Release|x86
 		{743F9D7F-F783-4082-9DCE-DFF70DEB8541}.Release|x86.Build.0 = Release|x86
 		{743F9D7F-F783-4082-9DCE-DFF70DEB8541}.Release|x86.Deploy.0 = Release|x86
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|ARM.Build.0 = Debug|ARM
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|x64.ActiveCfg = Debug|x64
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|x64.Build.0 = Debug|x64
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|x86.ActiveCfg = Debug|x86
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Debug|x86.Build.0 = Debug|x86
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|ARM.ActiveCfg = Release|ARM
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|ARM.Build.0 = Release|ARM
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|x64.ActiveCfg = Release|x64
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|x64.Build.0 = Release|x64
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|x86.ActiveCfg = Release|x86
+		{9FA2B078-0E45-4E64-BC59-044CCD607761}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +102,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BF5E0026-CD71-43C6-A60B-A3CE1132729D} = {E67AF451-7086-4315-AB0E-BF9172FA5CA6}
 		{743F9D7F-F783-4082-9DCE-DFF70DEB8541} = {E67AF451-7086-4315-AB0E-BF9172FA5CA6}
+		{9FA2B078-0E45-4E64-BC59-044CCD607761} = {E67AF451-7086-4315-AB0E-BF9172FA5CA6}
 	EndGlobalSection
 EndGlobal
